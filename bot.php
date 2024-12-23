@@ -14,7 +14,7 @@ if (php_sapi_name() !== 'cli') {
 
 require 'config.php';
 
-$latestVersion = 'v0.1.1';
+$latestVersion = 'v0.1.2';
 
 $botConn = new mysqli($botDbHost, $botDbUser, $botDbPass, $botDbName);
 if ($botConn->connect_error) {
